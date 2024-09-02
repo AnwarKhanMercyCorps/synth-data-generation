@@ -1,0 +1,29 @@
+body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#454545;padding:0 10px}
+h1,h2,h3{line-height:1.2}
+
+.header img { width:1.5em;}
+.header {font-size:4em; font-weight: 500;line-height: 1.1;}
+.header a { text-decoration: none;color: #646cff;}
+.header a:link,a:visited { color:#646cff;}
+/* mouse over link */
+.header a:hover { color: hotpink;}
+/* selected link */
+.header a:active { color: pink; }
+
+nav li {
+	display:inline;
+	padding:0;
+	margin:0 1em;
+}
+nav ul {border-bottom:solid 1px #ccc}
+li.active-menu a {
+	background:#ccc;
+	color:#000;
+}
+nav li a {
+	color: #777;
+    text-decoration: none;
+    padding:.2em .5em;
+}
+
+footer {margin-top:3em; border-top: solid 1px grey;}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head><meta charset="utf-8">
+<meta name="theme-color" content="#ffffff">
+<title>Default basic layout</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/style.css">
+<!-- Icons--><link rel="/apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" href="/img/favicon.svg">
+</head>
+<body>
+<header data-layout-replace="~{fragments/header.html :: header}">default Header</header>
+<nav data-layout-replace="~{fragments/nav.html :: nav}">No Nav</nav>
+<main data-layout-fragment="content">sample content</main>
+<footer data-layout-replace="~{fragments/footer.html :: footer}">default Footer</footer>
+</body>
+</html>
